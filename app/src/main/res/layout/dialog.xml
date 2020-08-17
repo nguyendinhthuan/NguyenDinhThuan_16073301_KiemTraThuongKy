@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:orientation="vertical">
+
+    <CheckBox
+        android:id="@+id/checkbox_ComSuon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cơm sườn" />
+
+    <CheckBox
+        android:id="@+id/checkbox_ChaoGa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cháo gà"
+        android:layout_marginTop="15dp"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_HuTieu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hủ tiếu"
+        android:layout_marginTop="15dp"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_MiXao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mì xào"
+        android:layout_marginTop="15dp"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_Pho"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phở"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/button_Xong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Xong" />
+</LinearLayout>
